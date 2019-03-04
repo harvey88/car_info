@@ -1,0 +1,43 @@
+.wrapper_input {
+    background: #43A047;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.wrapper_table{
+    background: #9CCC65;
+    /* margin-top: -16px; */
+}
+
+.wrapper_error {
+    background: #e53935;
+    text-align: center;
+    color: #fff;
+    padding: 13px;
+    margin: 0;
+}
+
+.wrapper_table_header, 
+.wrapper_table_body { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: #fff;
+}
+
+.icon{
+    fill: #fff;
+    margin-left: 17px;
+}

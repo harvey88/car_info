@@ -1,0 +1,45 @@
+{
+  "name": "test_ukrnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development NODE_ENV_TYPE=devlocal npm-run-all --parallel webpack-watch webpack-dev-server",
+    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server --host 127.0.0.1 --port 3000",
+    "webpack-watch": "./node_modules/.bin/webpack --watch",
+    "server": "node server.js"
+  },
+  "author": "elijah",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "npm-run-all": "^4.1.5",
+    "react-hot-loader": "^4.7.1",
+    "react-svg-loader": "^2.1.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "@hot-loader/react-dom": "npm:react-dom",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-tooltip": "^3.9.2",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.23.1"
+  }
+}
